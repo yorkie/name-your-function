@@ -1,0 +1,29 @@
+{
+  "name": "name-your-function",
+  "version": "1.0.0",
+  "description": "Just name your function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "name-your-function": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yorkie/name-your-function.git"
+  },
+  "keywords": [
+    "tool",
+    "nodejs"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yorkie/name-your-function/issues"
+  },
+  "homepage": "https://github.com/yorkie/name-your-function#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
